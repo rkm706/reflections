@@ -1,0 +1,22 @@
+How did viewing a diff between two versions help you to spot the bug?
+
+It was helpful because it only showed the differences in the two files and saved time manually scanning through a 1000 lines of code.
+
+Command used:  diff -u game_old.js game_new.js
+
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
+pwd # print working directory - shows what directory you are in
+ls  # list the files in this directory
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Having access to the history of a file can help you rollback to a previous version if required during troubleshooting.
+It can also help you to see what has changed from release to release.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Manual commits allow you to choose a logical separation for your commits. However, the con is that you may forget to commit and leave yourself with too big of a code change.
+Auto commiting doesn't give you a logical break between commits and you could end up with too many changes which will be hard to follow when looking at the history of a file.
