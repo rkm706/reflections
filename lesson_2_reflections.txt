@@ -16,4 +16,7 @@ What are some situations when branches would be helpful in keeping your history 
 Branches are helpful if you want to make a copy of your code base to experiment with a new feature or make a new version but you don't want to change the master code yet.
 
 How do the diagrams help you visualize the branch structure?
-Multiple branches can get complex and drawing a diagram helps you visualize the branch structure. The diagram gives you a quick reference when switching between branches. 
+Multiple branches can get complex and drawing a diagram helps you visualize the branch structure. The diagram gives you a quick reference when switching between branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches together brings all code changes in both branches, from the convergence forward, into a new master branch combining changes from both branches. The new branch is shown in a diagram as a new commit because you want to include all the previous commits from the master as well as the commits from the branch that is being merged into it. 
