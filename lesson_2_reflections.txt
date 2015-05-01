@@ -10,4 +10,7 @@ How is the staging area different from the working directory and the repository?
 The staging area allows you to batch up a small number of files from the working directory. This allows you to commit smaller logical code changes, instead of committing all files everytime there is a small change to the code base.
 
 How can you use the staging area to make sure you have one commit per logical change?
-The staging area allows you to move logically group changes into a pre-commit area without committing all of the code changes you have made. 
+The staging area allows you to move logically group changes into a pre-commit area without committing all of the code changes you have made.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are helpful if you want to make a copy of your code base to experiment with a new feature or make a new version but you don't want to change the master code yet. 
