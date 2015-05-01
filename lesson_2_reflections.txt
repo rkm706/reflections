@@ -13,4 +13,7 @@ How can you use the staging area to make sure you have one commit per logical ch
 The staging area allows you to move logically group changes into a pre-commit area without committing all of the code changes you have made.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-Branches are helpful if you want to make a copy of your code base to experiment with a new feature or make a new version but you don't want to change the master code yet. 
+Branches are helpful if you want to make a copy of your code base to experiment with a new feature or make a new version but you don't want to change the master code yet.
+
+How do the diagrams help you visualize the branch structure?
+Multiple branches can get complex and drawing a diagram helps you visualize the branch structure. The diagram gives you a quick reference when switching between branches. 
