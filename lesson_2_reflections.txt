@@ -19,4 +19,7 @@ How do the diagrams help you visualize the branch structure?
 Multiple branches can get complex and drawing a diagram helps you visualize the branch structure. The diagram gives you a quick reference when switching between branches.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-Merging two branches together brings all code changes in both branches, from the convergence forward, into a new master branch combining changes from both branches. The new branch is shown in a diagram as a new commit because you want to include all the previous commits from the master as well as the commits from the branch that is being merged into it. 
+Merging two branches together brings all code changes in both branches, from the convergence forward, into a new master branch combining changes from both branches. The new branch is shown in a diagram as a new commit because you want to include all the previous commits from the master as well as the commits from the branch that is being merged into it.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging takes care of putting all the commits from different branches into one commit when there isn't a conflict. You only have to manually fix code if there is a conflict. This saves a lot of time understanding all the code changes happening by multiple developers.
